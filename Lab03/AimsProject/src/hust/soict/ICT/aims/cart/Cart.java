@@ -1,4 +1,8 @@
+package hust.soict.ICT.aims.cart;
+
 import java.nio.file.DirectoryStream;
+
+import hust.soict.ICT.aims.disc.DigitalVideoDisc;
 
 public class Cart {
     public static final int MAX_NUMBERS_ORDERED = 20;
