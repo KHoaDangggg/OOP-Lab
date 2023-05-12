@@ -15,6 +15,19 @@ public class Cart {
             this.qtyOrdered++;
         }
     }
+
+    public void addDigitalVideoDisc(DigitalVideoDisc[] discs) {
+        if(this.qtyOrdered == 20) {
+            System.out.println("The cart is almost full");
+        }
+        else {
+            for(DigitalVideoDisc disc: discs) {
+                this.itemsOrdered[this.qtyOrdered] = disc;
+                this.qtyOrdered++;
+            }
+            System.out.println("The disc has been added");
+        }
+    }
    public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
         int indexRemove = 0;
         if(this.qtyOrdered == 0) {
