@@ -28,7 +28,7 @@ public class Cart {
             System.out.println("The disc has been added");
         }
     }
-   public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
+    public void removeDigitalVideoDisc(DigitalVideoDisc disc) {
         int indexRemove = 0;
         if(this.qtyOrdered == 0) {
             System.out.println("The cart is empty");
@@ -49,7 +49,7 @@ public class Cart {
             System.out.println("The disc has been removed.");
         }
    }
-   public float totalCost() {
+    public float totalCost() {
         float sum = 0f;
         if(this.qtyOrdered == 0) {
             return 0f;
@@ -60,4 +60,67 @@ public class Cart {
         }
         return sum;
    }
+
+    public void print() {
+        if(this.itemsOrdered.length == 0) {
+            System.out.println("No item has been ordered");
+            return;
+        }
+        System.out.println("***********************CART***********************\n" +
+                "Ordered Items:");
+        for(DigitalVideoDisc item: this.itemsOrdered) {
+            if(item == null) break;
+            System.out.println(item.getId() + ". "
+                    + item.getTitle() + " - "
+                    + item.getCategory() + " - "
+                    + item.getDirector() + " - "
+                    + item.getLength() + ": "
+                    + item.getCost() + "$\n"
+            );
+        }
+        System.out.println("Total cost:" + this.totalCost() + "\n***************************************************");
+    }
+    public void searchByTitle(String title) {
+        int count = 0;
+        System.out.println("***********************CART***********************\n" +
+                "Items with Title:");
+        for(DigitalVideoDisc item: this.itemsOrdered) {
+            if(item == null) break;
+            if(item.isMatchTitle(title)) {
+                count++;
+                System.out.println(item.getId() + ". "
+                        + item.getTitle() + " - "
+                        + item.getCategory() + " - "
+                        + item.getDirector() + " - "
+                        + item.getLength() + ": - "
+                        + item.getCost() + "$\n"
+                        + "Total cost: " + this.totalCost() + "\n"
+                );
+            }
+        }
+        if(count == 0) System.out.println("No item has that title");
+        System.out.println("***************************************************");
+    }
+    public void searchById(int id) {
+        int count = 0;
+        System.out.println("***********************CART***********************\n" +
+                "Items with ID:");
+        for(DigitalVideoDisc item: this.itemsOrdered) {
+            if(item == null) break;
+            if(item.isMatchId(id)) {
+                count++;
+                System.out.println(item.getId() + ". "
+                        + item.getTitle() + " - "
+                        + item.getCategory() + " - "
+                        + item.getDirector() + " - "
+                        + item.getLength() + ": - "
+                        + item.getCost() + "$\n"
+                        + "Total cost: " + this.totalCost() + "\n"
+                );
+                break;
+            }
+        }
+        if(count == 0) System.out.println("No item has that id");
+        System.out.println("***************************************************");
+    }
 }

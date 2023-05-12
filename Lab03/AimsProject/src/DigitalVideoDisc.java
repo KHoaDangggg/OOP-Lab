@@ -40,6 +40,15 @@ public class DigitalVideoDisc {
     public String getTitle() {
         return title;
     }
+
+    public static int getNbDigitalVideoDiscs() {
+        return nbDigitalVideoDiscs;
+    }
+
+    public int getId() {
+        return id;
+    }
+
     public DigitalVideoDisc(String title, String category, String director) {
         this.title = title;
         this.category = category;
@@ -79,11 +88,22 @@ public class DigitalVideoDisc {
         this.cost = cost;
         updateDiscId();
     }
-     public void updateDiscId() {
+    public void updateDiscId() {
         nbDigitalVideoDiscs++;
         this.id = nbDigitalVideoDiscs;
         System.out.println("Id: " + nbDigitalVideoDiscs);
-     }
+    }
+    public boolean isMatchTitle(String title) {
+        if(this.getTitle().contains(title)) {
+            return true;
+        } else return false;
+    }
+    public boolean isMatchId(int id) {
+        if(this.getId() == id) {
+            return true;
+        }
+        else return false;
+    }
 
 }
 
