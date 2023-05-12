@@ -10,7 +10,6 @@ public class TestingPassingParameter {
         changeTitle(jungleDVD, cinderellaDVD.getTitle());
         System.out.println("jungle dvd title: " + jungleDVD.getTitle());
     }
-
     public static void swap(DigitalVideoDisc o1, DigitalVideoDisc o2) {
         String title =o1.getTitle();
         String cate =o1.getCategory();
