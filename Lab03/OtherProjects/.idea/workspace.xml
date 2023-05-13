@@ -4,7 +4,55 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0598dd65-bac3-4d31-be90-9ece20471560" name="Changes" comment="" />
+    <list default="true" id="0598dd65-bac3-4d31-be90-9ece20471560" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lab01/BÁO CÁO THỰC HÀNH LAB 1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/FirstDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/HelloNameDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/HelloNameDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/JavaBasics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/InputFromKeyboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/JavaBasics/src/choosingOptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/MatrixAdd/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/MatrixAdd/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/MatrixAdd/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/MatrixAdd/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/MatrixAdd/MatrixAdd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/MatrixAdd/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/NumberOfDay/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/NumberOfDay/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/NumberOfDay/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/NumberOfDay/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/NumberOfDay/NumberOfDay.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/NumberOfDay/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/ShowTwoNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/SortArray/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/SortArray/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/SortArray/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/SortArray/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/SortArray/SortArray.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/SortArray/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/equation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/mathOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/triangleDraw/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/triangleDraw/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/triangleDraw/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/triangleDraw/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/triangleDraw/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab01/triangleDraw/triangleDraw.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
