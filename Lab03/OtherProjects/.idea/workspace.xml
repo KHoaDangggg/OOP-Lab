@@ -1,37 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0598dd65-bac3-4d31-be90-9ece20471560" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/Aims.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/aims/Aims.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/aims/cart/Cart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/CartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/test/cart/CartTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/DigitalVideoDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/aims/disc/DigitalVideoDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/aims/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/StoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/test/store/StoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AimsProject/src/TestingPassingParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AimsProject/src/hust/soict/ICT/test/disc/TestingPassingParameter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/ICT/lab01/NumberOfDay/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ICT/lab01/NumberOfDay/Days.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hust/soict/ICT/lab01/TriangleDraw/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hust/soict/ICT/lab01/TriangleDraw/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectId" id="2PhloQlsCCvzIL1oWYyGWxYUSuu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "onboarding.tips.debug.path": "C:/Users/Admin/OneDrive - Hanoi University of Science and Technology/Documents/TaiLieuBK/OOP/Coding/Lab03/OtherProjects/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Admin/OneDrive - Hanoi University of Science and Technology/Documents/TaiLieuBK/OOP/Coding/Lab03/OtherProjects/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\OneDrive - Hanoi University of Science and Technology\Documents\TaiLieuBK\OOP\Coding\Lab03\OtherProjects\src\hust\soict\ICT\lab01\Others" />
