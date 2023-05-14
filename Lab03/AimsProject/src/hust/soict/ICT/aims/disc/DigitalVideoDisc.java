@@ -107,5 +107,14 @@ public class DigitalVideoDisc {
         else return false;
     }
 
+    public String toString() {
+        return this.getId() + ". "
+                + this.getTitle() + " - "
+                + this.getCategory() + " - "
+                + this.getDirector() + " - "
+                + this.getLength() + ": "
+                + this.getCost() + "$\n" ;
+    }
+
 }
 

@@ -1,7 +1,5 @@
 package hust.soict.ICT.aims.cart;
 
-import java.nio.file.DirectoryStream;
-
 import hust.soict.ICT.aims.disc.DigitalVideoDisc;
 
 public class Cart {
@@ -74,13 +72,7 @@ public class Cart {
                 "Ordered Items:");
         for(DigitalVideoDisc item: this.itemsOrdered) {
             if(item == null) break;
-            System.out.println(item.getId() + ". "
-                    + item.getTitle() + " - "
-                    + item.getCategory() + " - "
-                    + item.getDirector() + " - "
-                    + item.getLength() + ": "
-                    + item.getCost() + "$\n"
-            );
+            System.out.println(item.toString());
         }
         System.out.println("Total cost:" + this.totalCost() + "\n***************************************************");
     }
@@ -92,19 +84,13 @@ public class Cart {
             if(item == null) break;
             if(item.isMatchTitle(title)) {
                 count++;
-                System.out.println(item.getId() + ". "
-                        + item.getTitle() + " - "
-                        + item.getCategory() + " - "
-                        + item.getDirector() + " - "
-                        + item.getLength() + ": - "
-                        + item.getCost() + "$\n"
-                        + "Total cost: " + this.totalCost() + "\n"
-                );
+                System.out.println(item.toString());
             }
         }
         if(count == 0) System.out.println("No item has that title");
         System.out.println("***************************************************");
     }
+
     public void searchById(int id) {
         int count = 0;
         System.out.println("***********************CART***********************\n" +
@@ -113,14 +99,7 @@ public class Cart {
             if(item == null) break;
             if(item.isMatchId(id)) {
                 count++;
-                System.out.println(item.getId() + ". "
-                        + item.getTitle() + " - "
-                        + item.getCategory() + " - "
-                        + item.getDirector() + " - "
-                        + item.getLength() + ": - "
-                        + item.getCost() + "$\n"
-                        + "Total cost: " + this.totalCost() + "\n"
-                );
+                System.out.println(item.toString());
                 break;
             }
         }

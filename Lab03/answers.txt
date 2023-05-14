@@ -1,0 +1,17 @@
+Ex3: 
+- Q1: Java is a pass by value language. It means that when a method is called, the values of the arguments are copied and passed to the method as parameters, rather than the original varibales. Any changes made to the copied values inside method doesn't affect the original variables otuside the method.
+- Q2: The titles of 2 objects still remain since o1, o2 are copied references so any changes to o1, o2 can not affect the original dvd objects: jungle dvd and cinderella dvd and 2 original objects don't change after swap method is called.
+- Q3: Title of jungleDVD changes since dvd is copied of reference of jungledvd and when call dvd.setTitle method, the title of the dvd at this reference will change. Line dvdv = new DigitalVideoDisc(oldTitle) only change copied reference dvd and doesn't affect the original jungle dvd object.
+
+Ex 2:
+- Advantages of varargs: 
++ Make method to accept a variable number of arguments, which can make the code simpler and more flexible.
++ simplify method, since the caller does not need to create an array or specify the number of arguments.
++ Work with various type of argument, making them a versatile tool for passing multiple values to a method.
+- Advantages of array parameter: 
++ Arrays can be passed between methods, so we can share data between different parts of a program.
++ Arrays can be passed by reference, allowing methods to modify the original array instead of only on copied variables.
+- In this code, i prefer use varargs since it make code more simple and dont need to create extra array.
+
+Ex6: 
+toString() method return String type
