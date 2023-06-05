@@ -90,7 +90,6 @@ public class Cart {
         if(count == 0) System.out.println("No item has that title");
         System.out.println("***************************************************");
     }
-
     public void searchById(int id) {
         int count = 0;
         System.out.println("***********************CART***********************\n" +
