@@ -1,27 +1,36 @@
 package hust.soict.ICT.aims.store;
 
-import hust.soict.ICT.aims.disc.DigitalVideoDisc;
-
 import java.util.ArrayList;
 
-public class Store {
-    private ArrayList<DigitalVideoDisc> itemInStore = new ArrayList<>();
+import hust.soict.ICT.aims.media.Media;
 
-    public void addDVD(DigitalVideoDisc... dvds) {
-        for(DigitalVideoDisc dvd: dvds) {
-            itemInStore.add(dvd);
-        }
-        System.out.println("Added " + itemInStore.size() + " items");
-    }
-    public void removeDVD(DigitalVideoDisc... dvds) {
-        for(DigitalVideoDisc dvd: dvds) {
-            for(int i=this.itemInStore.size()-1; i>=0; i--) {
-                DigitalVideoDisc a = this.itemInStore.get(i);
-                if(a.isMatchTitle(dvd.getTitle())) {
-                    this.itemInStore.remove(i);
-                    System.out.println("Remove dvd " + a.getId());
-                }
-            }
-        }
-    }
+public class Store {
+	private ArrayList<Media> itemInStore = new ArrayList<>();
+
+	public ArrayList<Media> getItemInStore() {
+		return itemInStore;
+	}
+
+	public void addMedia(Media... medias) {
+		for (Media media : medias) {
+			itemInStore.add(media);
+		}
+		System.out.println("Added " + itemInStore.size() + " items");
+	}
+
+	public void removeMedia(Media... medias) {
+		for (Media rmMedia : medias) {
+			for (Media t : this.itemInStore) {
+				Boolean correct = t.getCategory().equals(rmMedia.getCategory()) && t.getCost() == rmMedia.getCost()
+						&& t.getId() == rmMedia.getId() && t.getTitle().equals(rmMedia.getTitle());
+				if (correct) {
+					this.itemInStore.remove(rmMedia);
+					System.out.println("Removed successfully");
+					return;
+				}
+			}
+			System.out.println("No item match");
+		}
+	}
+
 }

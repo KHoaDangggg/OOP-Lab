@@ -1,0 +1,45 @@
+ex 9:
+Cart aggregates Media
+Store aggregates Media
+Aims aggregates Cart
+Aims aggregates Store
+Compact Disc aggregates Track 
+Media aggregates MediaComparatorByTitleCost, MediaComparatorByCostTitle;
+ex 11:
+Each media in the list executes a different toString method because it is dynamic binding which means the called method depends on the objects and not depends on the referrence to the object. In this case, each media refer to different objects of 3 different classes so they have different toString method.
+ex 10: 
+If instance passed in method equals is not Media, we check the instance by method "instanceof" and return false for function equals and print out message that instance is not Media.
+Q12: 
+- What class should implement the Comparable interface?
+Ans : Implement Comparable interface in Media class in order to sorting media 
+- In those classes, how should you implement the compareTo() method be to reflect the ordering that we want?
+Ans : public class Media implements Comparable<Media>{}
++ Example: compareTo method for sorting cost-title
+public int compareTo(Media that) {
+    int CompareBy Title = this.getTitle().compareTo(that.getTitle());
+    int CompareByCost = Float.compare(this.getCost(), that.getCost());
+    if (CompareByTitle == 0) return titleCompare
+    else -costCompare;
+}
+- Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+Ans : Can not since class Media can not override compareTo() method twice at the same time
+- Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then cost. How would you modify your code to allow this?
+Ans :
+	public int compareTo(Media that) {
+        int CompareByTitle = this.getTitle().compareTo(that.getTitle());
+        int CompareByCost = Float.compare(this.getCost(), that.getCost());
+        if ((this instanceof DigitalVideoDisc) && (that instanceof DigitalVideoDisc)) { 
+	// Check whether it is an instance of DVD 
+            int CompareByLength = this.getLength() - that.getLength();
+            if (CompareByTitle != 0) {
+                return CompareByTitle;
+            } else if (lengthCompare != 0) {
+                return CompareByLength;
+            } else {
+            	return CompareByCost; 
+	    } 
+        }
+        // Compare by title-cost if it is not an instance of DVD 
+        if (TitleCompare == 0) return -CostCompare 
+	else return TitleCompare;
+    }
